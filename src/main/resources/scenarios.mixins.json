@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ladysnake.scenarios.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "AbstractBlockMixin",
+    "OreBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
