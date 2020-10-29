@@ -9,7 +9,8 @@
     "OreBlockMixin",
     "CraftingResultInventoryMixin",
     "PlayerEntityMixin",
-    "EntityMixin"
+    "EntityMixin",
+    "LivingEntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1

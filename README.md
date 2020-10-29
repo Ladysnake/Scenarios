@@ -9,6 +9,7 @@ A Minecraft Fabric mod adding multiple game modifying scenarios inspired but not
 - **Thousand Degree Knife**: Animals killed drop cooked food.
 - **Power Tools**: Tools are automatically enchanted with *Efficiency V* when crafted.
 - **Heavy Machine Crossbow**: Crossbows instantly reload an arrow after shooting one.
+- **Bombers**: Every passive or hostile mob killed by a player has a 20% chance to drop between 4 and 6 TNT.
 
 
 
@@ -80,6 +81,6 @@ Zombies get a speed boost.
 
 All arrows are explosive.
 
-#### Heavy Machine Crossbow
+#### Arrowmatized
 
-Crossbows instantly reload arrows.
+Every arrow shot is a random tipped arrow.

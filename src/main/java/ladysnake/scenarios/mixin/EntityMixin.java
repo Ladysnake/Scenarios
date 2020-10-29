@@ -24,13 +24,15 @@ import java.util.Optional;
 public class EntityMixin {
     @Inject(at = @At(value = "RETURN"), method = "dropStack(Lnet/minecraft/item/ItemStack;F)Lnet/minecraft/entity/ItemEntity;")
     public void dropStack(ItemStack stack, float yOffset, CallbackInfoReturnable<ItemEntity> ci) {
-        Optional<SmokingRecipe> optional = ci.getReturnValue().getEntityWorld().getRecipeManager().getFirstMatch(RecipeType.SMOKING, new SimpleInventory(new ItemStack[]{stack}), ci.getReturnValue().getEntityWorld());
-        if (optional.isPresent()) {
-            ItemStack itemStack1 = (optional.get()).getOutput();
-            if (!itemStack1.isEmpty()) {
-                ItemStack smeltedStack = itemStack1.copy();
-                smeltedStack.setCount(stack.getCount());
-                ci.getReturnValue().setStack(smeltedStack);
+        if (stack != null) {
+            Optional<SmokingRecipe> optional = ci.getReturnValue().getEntityWorld().getRecipeManager().getFirstMatch(RecipeType.SMOKING, new SimpleInventory(new ItemStack[]{stack}), ci.getReturnValue().getEntityWorld());
+            if (optional.isPresent()) {
+                ItemStack itemStack1 = (optional.get()).getOutput();
+                if (!itemStack1.isEmpty()) {
+                    ItemStack smeltedStack = itemStack1.copy();
+                    smeltedStack.setCount(stack.getCount());
+                    ci.getReturnValue().setStack(smeltedStack);
+                }
             }
         }
     }
