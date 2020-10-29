@@ -11,7 +11,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 import java.util.Random;
 
-// drop a bit of experience when mining gold and iron ores with auto smelting on
+// metal masters xp drop
 @Mixin(OreBlock.class)
 public class OreBlockMixin extends Block {
     public OreBlockMixin(Settings settings) {

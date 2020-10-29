@@ -6,7 +6,7 @@ A Minecraft Fabric mod adding multiple game modifying scenarios inspired but not
 
 - **Cat's Eyes**: Every player possesses night vision. 
 - **Metal Masters**: Ores are automatically smelted upon getting mined.
-- **Thousand Degree Knife**: Animals killed with a sword drop cooked food.
+- **Thousand Degree Knife**: Animals killed drop cooked food.
 - **Power Tools**: Tools are automatically enchanted with *Efficiency V* when crafted.
 - **Heavy Machine Crossbow**: Crossbows instantly reload an arrow after shooting one.
 

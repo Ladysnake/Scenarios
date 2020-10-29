@@ -11,6 +11,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
+// power tools
 @Mixin(CraftingResultInventory.class)
 public class CraftingResultInventoryMixin {
     @Inject(at = @At(value = "HEAD"), method = "setStack", cancellable = true)

@@ -15,7 +15,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 import static net.minecraft.item.CrossbowItem.isCharged;
 
-// full auto crossbow
+// heavy machine crossbow
 @Mixin(CrossbowItem.class)
 public abstract class CrossbowItemMixin extends RangedWeaponItem implements Vanishable {
     public CrossbowItemMixin(Settings settings) {
