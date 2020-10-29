@@ -8,6 +8,7 @@ A Minecraft Fabric mod adding multiple game modifying scenarios inspired but not
 - **Hot Pick**: Ores are automatically smelted upon getting mined.
 - **Thousand Degree Knife**: Animals killed with a sword drop cooked food.
 - **Hasty Boys**: Tools are automatically enchanted with *Efficiency III* when crafted.
+- **Heavy Machine Crossbow**: Crossbows instantly reload an arrow after shooting one.
 
 
 
