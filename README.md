@@ -10,16 +10,15 @@ A Minecraft Fabric mod adding multiple game modifying scenarios inspired but not
 - **Power Tools**: Tools are automatically enchanted with *Efficiency V* when crafted.
 - **Heavy Machine Crossbow**: Crossbows instantly reload an arrow after shooting one.
 - **Bombers**: Every passive or hostile mob killed by a player has a 20% chance to drop between 4 and 6 TNT.
+- **Global Warming**: Every entity burns in the sunlight like undead.
+- **Arrowmatized**: Every arrow shot is a random tipped arrow.
+- **Ultra-Hard**: Natural health regeneration is disabled.
 
 
 
 #### 1/2 Ores
 
 Chaque fois que 2 minerais sont minés, un seul est obtenu. Chaque type de  minerai ont leur propre fonctionnement (on ne peut pas miner 1 diamant  puis 1 fer pas obtenu, puis miner un diamant pour avoir des filons  entiers de diamants)
-
-#### 3x Arrows
-
-Quand tu tires une flèche, 3 seront tirés à la fois.
 
 #### Actually Monsters Inc.
 
@@ -64,10 +63,6 @@ La première fois que l'on mine un diamant, on a 25 % de chance de mourir,  25 %
 #### BowSpam
 
 Les seuls dégâts que tu peux infliger aux joueurs sont les dégâts d'arc.
-
-#### Bombers
-
-Chaque joueur possède un briquet incassable, chaque mob hostile ou pacifique à 20% de chance de donner entre 4 et 6 TNT.
 
 #### Sunscreen
 

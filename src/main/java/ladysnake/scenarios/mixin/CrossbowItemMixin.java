@@ -15,13 +15,13 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 import static net.minecraft.item.CrossbowItem.isCharged;
 
-// heavy machine crossbow
 @Mixin(CrossbowItem.class)
 public abstract class CrossbowItemMixin extends RangedWeaponItem implements Vanishable {
     public CrossbowItemMixin(Settings settings) {
         super(settings);
     }
 
+    // heavy machine crossbow
     @Inject(at = @At(value = "RETURN"), method = "use", cancellable = true)
     public void use(World world, PlayerEntity user, Hand hand, CallbackInfoReturnable<TypedActionResult<ItemStack>> ci) {
         ItemStack itemStack = user.getStackInHand(hand);

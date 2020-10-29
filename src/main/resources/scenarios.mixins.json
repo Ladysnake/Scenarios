@@ -5,12 +5,12 @@
   "compatibilityLevel": "JAVA_8",
   "mixins": [
     "AbstractBlockMixin",
-    "CrossbowItemMixin",
-    "OreBlockMixin",
     "CraftingResultInventoryMixin",
-    "PlayerEntityMixin",
+    "CrossbowItemMixin",
     "EntityMixin",
-    "LivingEntityMixin"
+    "LivingEntityMixin",
+    "OreBlockMixin",
+    "PlayerEntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1
