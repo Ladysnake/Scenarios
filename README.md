@@ -11,7 +11,7 @@ A Minecraft Fabric mod adding multiple game modifying scenarios inspired but not
 - **Heavy Machine Crossbow**: Crossbows instantly reload an arrow after shooting one.
 - **Bombers**: Every passive or hostile mob killed by a player has a 20% chance to drop between 4 and 6 TNT.
 - **Global Warming**: Every entity burns in the sunlight like undead.
-- **Arrowmatized**: Every arrow shot is a random tipped arrow.
+- **Arrowmatized**: Every nomal arrow shot is a random tipped arrow.
 - **Ultra-Hard**: Natural health regeneration is disabled.
 
 

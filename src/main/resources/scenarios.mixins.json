@@ -10,7 +10,8 @@
     "EntityMixin",
     "LivingEntityMixin",
     "OreBlockMixin",
-    "PlayerEntityMixin"
+    "PlayerEntityMixin",
+    "ArrowItemMixin "
   ],
   "injectors": {
     "defaultRequire": 1
